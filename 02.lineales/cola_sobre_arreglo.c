@@ -19,10 +19,10 @@ bool enqueue(struct queue* cola, int valor) {
         cola->arreglo[(cola->principio + cola->tamano) % TAMANO] = valor;
         cola->tamano++;
         printf("Debug: Encolando %d con ppio %d, tamano %d\n", valor, cola->principio, cola->tamano);
-        return(1);
+        return(0);
     }
     printf("Queue llena --- error!!!\n");
-    return(0);
+    return(1);
 }
 
 int dequeue(struct queue* cola) {
