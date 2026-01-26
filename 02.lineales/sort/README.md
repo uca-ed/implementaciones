@@ -1,4 +1,4 @@
-# Sort - Algoritmmos de ordenamiento
+# Sort - Algoritmos de ordenamiento
 
 Este directorio tiene implementaciones de algoritmos de ordenamiento sobre arreglos:
 
